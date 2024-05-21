@@ -30,7 +30,7 @@ class MedicineCard extends StatelessWidget {
                 EdgeInsets.symmetric(vertical: 15.0, horizontal: 15.0),
             title: Text(
               medicine.name,
-              style: Theme.of(context).textTheme.headline1.copyWith(
+              style: Theme.of(context).textTheme.displayLarge.copyWith(
                   color: Colors.black,
                   fontSize: 20.0,
                   decoration: isEnd ? TextDecoration.lineThrough : null),
@@ -39,7 +39,7 @@ class MedicineCard extends StatelessWidget {
             ),
             subtitle: Text(
               "${medicine.amount} ${medicine.medicineForm}",
-              style: Theme.of(context).textTheme.headline5.copyWith(
+              style: Theme.of(context).textTheme.headlineSmall.copyWith(
                   color: Colors.grey[600],
                   fontSize: 15.0,
                   decoration: isEnd ? TextDecoration.lineThrough : null),

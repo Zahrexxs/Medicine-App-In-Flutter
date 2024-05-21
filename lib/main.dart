@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:medicine/screens/add_new_medicine/add_new_medicine.dart';
@@ -22,17 +21,17 @@ class MedicineApp extends StatelessWidget {
           fontFamily: "Popins",
           primaryColor: Color.fromRGBO(7, 190, 200, 1),
           textTheme: TextTheme(
-              headline1: ThemeData.light().textTheme.headline1.copyWith(
+              displayLarge: ThemeData.light().textTheme.displayLarge.copyWith(
                     fontWeight: FontWeight.w700,
                     fontSize: 38.0,
                     fontFamily: "Popins",
                   ),
-              headline5: ThemeData.light().textTheme.headline1.copyWith(
+              headlineSmall: ThemeData.light().textTheme.displayLarge.copyWith(
                     fontWeight: FontWeight.w400,
                     fontSize: 17.0,
                     fontFamily: "Popins",
                   ),
-              headline3: ThemeData.light().textTheme.headline3.copyWith(
+              displaySmall: ThemeData.light().textTheme.displaySmall.copyWith(
                     fontWeight: FontWeight.w600,
                     fontSize: 20.0,
                     fontFamily: "Popins",

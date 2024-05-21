@@ -38,7 +38,7 @@ class Welcome extends StatelessWidget {
                         "Get started now",
                         style: Theme.of(context)
                             .textTheme
-                            .headline3
+                            .displaySmall
                             .copyWith(color: Colors.white),
                       ),
                     ),

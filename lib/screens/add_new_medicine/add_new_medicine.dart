@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
@@ -107,7 +106,7 @@ class _AddNewMedicineState extends State<AddNewMedicine> {
                   "Add Pills",
                   style: Theme.of(context)
                       .textTheme
-                      .headline3
+                      .displaySmall
                       .copyWith(color: Colors.black),
                 )),
               ),

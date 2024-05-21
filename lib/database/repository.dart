@@ -10,7 +10,7 @@ class Repository{
 
   //init database
   Future<Database> get database async{
-    if(_database != null) return _database;
+    return _database;
     _database = await _pillsDatabase.setDatabase();
     return _database;
   }

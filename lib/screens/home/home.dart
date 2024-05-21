@@ -1,6 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:animated_widgets/animated_widgets.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import '../../notifications/notifications.dart';
@@ -104,7 +103,7 @@ class _HomeState extends State<Home> {
                           "Journal",
                           style: Theme.of(context)
                               .textTheme
-                              .headline1
+                              .displayLarge
                               .copyWith(color: Colors.black),
                         ),
                         ShakeAnimatedWidget(

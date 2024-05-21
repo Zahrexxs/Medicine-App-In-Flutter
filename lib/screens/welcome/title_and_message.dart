@@ -16,7 +16,7 @@ class TitleAndMessage extends StatelessWidget {
                 "Be in control of your meds",
                 style: Theme.of(context)
                     .textTheme
-                    .headline1
+                    .displayLarge
                     .copyWith(color: Colors.black, height: 1.3),
                 textAlign: TextAlign.center,
                 maxLines: 2,
@@ -31,7 +31,7 @@ class TitleAndMessage extends StatelessWidget {
               "An easy-to-use and reliable app that helps you remember to take your meds at the right time",
               style: Theme.of(context)
                   .textTheme
-                  .headline5
+                  .headlineSmall
                   .copyWith(color: Colors.grey[600], height: 1.3,),
               textAlign: TextAlign.center,
               maxLines: 3,
